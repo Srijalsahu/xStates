@@ -62,7 +62,7 @@ const State = () => {
   const handleCityChange = (e) => {
     const city = e.target.value;
     setSelectedCity(city);
-    setLocationMessage(`You Selected ${city}, ${selectedState}, ${selectedCountry}`);
+    setLocationMessage(`You selected ${city}, ${selectedState}, ${selectedCountry}`);
   };
 
   return (
